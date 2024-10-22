@@ -32,7 +32,7 @@
             position: fixed;
             bottom: 90px;
             right: 20px;
-            width: 300px;
+            width: 350px;
             height: 400px;
             background: white;
             border-radius: 10px;
@@ -76,6 +76,7 @@
             border: 1px solid #ddd;
             border-radius: 4px;
             margin-right: 8px;
+            background-color: transparent;
         }
 
         .send-btn {
