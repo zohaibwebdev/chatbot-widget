@@ -1,5 +1,8 @@
 // Create chatbot.js
 (function() {
+    let userName = '';
+    const scriptTag = document.currentScript;
+    userName = scriptTag.getAttribute('data-username') || 'Guest'; 
     // CSS styles
     const styles = `
         .chat-widget {
@@ -162,7 +165,7 @@
             
             // Add bot response (customize this part)
             setTimeout(() => {
-                addMessage('This is a demo response from the bot.', 'bot-message');
+                addMessage(`Hi, ${userName} This is a demo response from the bot.`, 'bot-message');
             }, 500);
         }
     }
