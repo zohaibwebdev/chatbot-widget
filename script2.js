@@ -76,7 +76,7 @@
             border: 1px solid #ddd;
             border-radius: 4px;
             margin-right: 8px;
-            background-color: transparent;
+            background-color: white !important;
         }
 
         .send-btn {
